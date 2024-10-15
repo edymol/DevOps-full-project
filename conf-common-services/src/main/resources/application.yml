@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: conf-common-services
+    cloud:
+      config:
+        server:
+          git:
+#            uri: https://your-git-repository.com/config-repo
+            cloneOnStart: true
+            defaultLabel: main
+server:
+  port: 8888
+

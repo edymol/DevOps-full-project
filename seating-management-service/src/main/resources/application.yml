@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: seating-management-service
+server:
+  port: 1418
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: restaurant-order-management-service
+server:
+  port: 1416
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

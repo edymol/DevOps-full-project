@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: gateway-service
+    cloud:
+      gateway:
+        routes:
+          - id: user-service
+            uri: lb://restaurant-user-management-service
+            predicates:
+              - Path=/users/**
+          - id: menu-service
+            uri: lb://restaurant-menu-management-service
+            predicates:
+              - Path=/menus/**
+          # Add more routes as necessary
+server:
+  port: 1420
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
