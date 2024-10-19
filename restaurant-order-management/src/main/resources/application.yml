@@ -1,4 +1,7 @@
 spring:
+  cloud:
+    compatibility-verifier:
+      enabled: false
   application:
     name: restaurant-order-management-service
 server:
