@@ -1,3 +1,49 @@
 .DS_Store
 .idea/
 .env
+
+
+# Maven target directories
+**/target/
+
+# Logs
+**/logs/
+*.log
+
+# OS-specific files
+Thumbs.db
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Build files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Configurations
+application.properties
+application.yml
+
+# System files
+*.swp
+*.tmp
+*.bak
+*.old
+
+# Node modules (if applicable)
+node_modules/
+
+# Exclude specific test reports or data
+*.test.*
+test-output/
