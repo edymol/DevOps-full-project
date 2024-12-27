@@ -47,3 +47,4 @@ node_modules/
 # Exclude specific test reports or data
 *.test.*
 test-output/
+/.metadata/
